@@ -2,4 +2,4 @@
 
 ##### jQuery AJAX code is written in the /wwwroot/js/site.js file.
 ##### Custom css is written in the /wwwroot/css/site.css file.
-##### HTML code is in Index.cshtml file
+##### HTML code is in /Views/Home/Index.cshtml file
