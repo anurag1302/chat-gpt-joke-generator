@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center mt-5">
+    <h1 class="display-6">Welcome to Programming Joke Generator - Powered by Chat GPT</h1>
+
+    <fieldset class="mt-lg-5">
+        <legend>Please select your favorite programming language.</legend>
+
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" checked name="favoriteLanguage" id="csharp" value="C#">
+            <label class="form-check-label" for="csharp">C#</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="favoriteLanguage" id="java" value="Java">
+            <label class="form-check-label" for="java">Java</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="favoriteLanguage" id="python" value="Python">
+            <label class="form-check-label" for="python">Python</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="favoriteLanguage" id="javascript" value="JavaScript">
+            <label class="form-check-label" for="javascript">JavaScript</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="favoriteLanguage" id="rust" value="Rust">
+            <label class="form-check-label" for="rust">Rust</label>
+        </div>
+    </fieldset>
+
+    <button class="mt-lg-5 btn btn-success" id="btnGenerate">Generate a Random Joke</button>
+    <div id="container" class="mt-lg-5"></div>
+</div>
+

@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/JokeGeneratorSolution/.vs
+/JokeGeneratorSolution/JokeGenerator/bin/Debug/net7.0
+/JokeGeneratorSolution/JokeGenerator/obj
