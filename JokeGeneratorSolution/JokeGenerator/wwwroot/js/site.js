@@ -26,6 +26,8 @@
             error: function (xhr) {
                 hideLoader();
                 console.log(xhr);
+                $('#container').html('');
+                $('#container').html('Something went wrong. Please refresh and try again!!!');
             }
         });
     });
